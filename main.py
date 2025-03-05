@@ -51,7 +51,7 @@ async def generate_cards(update: Update, context: CallbackContext) -> None:
     await update.message.reply_text(response)
 
 async def start(update: Update, context: CallbackContext) -> None:
-    await update.message.reply_text("Welcome! to 𝐿𝑒𝓎𝓌𝒾𝓃 𝑀𝐸𝒯𝐻𝒪𝒟 bot. Use /gen to Generate 10 valid credit card.")
+    await update.message.reply_text("Welcome! to Sami Ahraf Nirob bot. Use /gen to Generate 10 valid credit card.")
 
 def main():
     app = Application.builder().token(TOKEN).build()
